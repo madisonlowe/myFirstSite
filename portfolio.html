@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>"
+    />
     <title>Portfolio</title>
   </head>
   <body>
@@ -27,17 +31,44 @@
     </nav>
     <main class="central-text">
       <h1>Portfolio</h1>
-      <p class="feature-text">
-        For more of my work, and to see my code and the languages and
-        technologies I use, please feel free to take a look at my GitHub.
-      </p>
-      <p>
-        This paragraph here will be a rotating, changing descriptive paragraph
-        that will be connected to the project display that will be placed on the
-        right. As the user clicks through the project previews, this paragraph
-        should change. A short description of the project and the languages used
-        to build it should be placed here.
-      </p>
+      <div class="project-grid">
+        <div class="project-card">
+          <img
+            class="card-image"
+            src="https://cdn.discordapp.com/attachments/754608712563294318/982704783699898368/rps_1_gif.gif"
+          />
+          <p class="project-title">Rock, Paper, Scissors!</p>
+          <p class="project-desc">
+            A JavaScript game with light and dark modes. Click
+            <a href="https://github.com/madisonlowe/RPS">here</a> to see the
+            code, and <a href="https://madisonlowe.github.io/RPS/">here</a> to
+            see it live.
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="card-image"
+            src="https://cdn.discordapp.com/attachments/754608712563294318/982701985750995064/Screen_Recording_2022-06-04_at_18.44.27.gif"
+          />
+          <p class="project-title">Website 1.0</p>
+          <p class="project-desc">
+            My first website, planned following design thinking models. Click
+            <a href="https://github.com/madisonlowe/mySite">here</a> to see the
+            code, planning notes, research and wireframes.
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="card-image"
+            src="https://i.pinimg.com/564x/44/88/0b/44880bf8b96a5e3a8b4ea163d77dee6e.jpg"
+          />
+          <p class="project-title">Lorem ipsum.</p>
+          <p class="project-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
     </main>
     <script type="text/javascript" src="main.js"></script>
   </body>

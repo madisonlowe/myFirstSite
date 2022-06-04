@@ -64,6 +64,30 @@ form {
   font-weight: bold;
 }
 
+.project-grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  width: 90vw;
+  max-height: 60vh;
+  gap: 2rem;
+}
+
+/* To add more entries to the grid, just copy-paste the HTML, it'll auto-wrap. */
+
+.project-card {
+  border: 1px solid var(--main-dark);
+  padding: 10%;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
 #index-block {
   font-size: 4rem;
   text-align: right;

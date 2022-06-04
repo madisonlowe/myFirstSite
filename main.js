@@ -3,12 +3,13 @@ states.addEventListener("click", changeState);
 let index = 0;
 
 let statesArr = [
-  "bad cook",
-  "Aquarius",
   "Sheffielder",
-  "gardener",
-  "crocheter",
+  "Aquarius",
+  "hobby gardener",
+  "middling cook",
+  "crochetier",
   "cat person",
+  "lake swimmer",
   "software developer",
 ];
 
