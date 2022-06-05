@@ -90,11 +90,11 @@ form {
 
 #index-block {
   font-size: 4rem;
-  text-align: right;
+  text-align: left;
   font-family: "Spectral", serif;
-  text-indent: 30%;
+  /* text-indent: 30%; */
   width: 80%;
-  float: right;
+  float: left;
   margin-top: 10rem;
 }
 
