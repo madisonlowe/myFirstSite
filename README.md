@@ -2,7 +2,7 @@
 
 This is a repo tracking the development process of researching, planning, building, and rebuilding the first iteration of my personal website! The task at hand was to create a website about me, which would be viewed by employers and other developers primarily, and should serve as a kind of coding portfolio website first and foremost.
 
-I began planning and building this website during the first few weeks of my bootcamp with the School of Code, and my focus during building was getting in some practice with engaging UX/UI fundamentals and working concepts, and using vanilla HTML, CSS and JavaScript to build a functional, clean application.
+I began planning and building this website during the first few weeks of my bootcamp with the **[School of Code](https://www.schoolofcode.co.uk)**, and my focus during building was getting in some practice with engaging UX/UI fundamentals and working concepts, and using vanilla HTML, CSS and JavaScript to build a functional, clean application.
 
 As of the moment of typing, I just started getting my hands on React. The capabilities of React are really exciting, and I've been learning and growing since I first conceptualised this project, so my website 2.0 is going to be researched, designed and put together in a different repo, using some of the new technologies that I'm currently learning.
 
