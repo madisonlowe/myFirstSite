@@ -1,36 +1,41 @@
-# Building My Website
+# Building My Website 1.0
 
-This is a repo tracking the development process of researching, planning, building, and rebuilding my personal website! I will update this document once the site is properly deployed, but for now, I'm going to be tracking my design and build progress and keeping notes.
+This is a repo tracking the development process of researching, planning, building, and rebuilding the first iteration of my personal website! The task at hand was to create a website about me, which would be viewed by employers and other developers primarily, and should serve as a kind of coding portfolio website first and foremost.
 
-The task at hand is to create a website about me, which will be viewed by employers and other developers primarily, and should serve as a kind of coding portfolio website first and foremost. Don't forget to keep in mind the design thinking principles! Empathise, define, ideate, prototype, and test.
+I began planning and building this website during the first few weeks of my bootcamp with the School of Code, and my focus during building was getting in some practice with engaging UX/UI fundamentals and working concepts, and using vanilla HTML, CSS and JavaScript to build a functional, clean application.
+
+As of the moment of typing, I just started getting my hands on React. The capabilities of React are really exciting, and I've been learning and growing since I first conceptualised this project, so my website 2.0 is going to be researched, designed and put together in a different repo, using some of the new technologies that I'm currently learning.
+
+I'll update this repo once I have some links and work to show regarding that! For now, though, let me know if you have any questions, feedback or ideas to share that you think could push this project further, and thanks for stopping by!
 
 ### **Empathising, Defining, & Researching**
 
-Early stage planning has been completed and documented in **[this Google Jamboard](https://jamboard.google.com/d/1k15eMy4CZk1_8h_eVONCJmqYfkn6IVc8dLzSqgx80C0/edit?usp=sharing).**
+Early stage planning has been documented in **[this Google Jamboard](https://jamboard.google.com/d/1k15eMy4CZk1_8h_eVONCJmqYfkn6IVc8dLzSqgx80C0/edit?usp=sharing).**
 
-- **Jamboard.** Who will be using my website? What will they be looking for? What needs should this website fulfill? ✅
-- **User stories and personas.** Define my users' needs and problems. ✅
-- Maybe create a **user flow** diagram on draw.io. ✅
+In this short Jamboard slideshow, I have saved visuals and notes from the early-stage planning steps I went through to help elucidate what exactly I wanted and needed from my website, and what I would need to implement in order to achieve those things.
 
-### **Ideating & Low-fidelity Wireframes**
+First, I used a Jamboard to put together quick notes and ideas about who would be using my website, what they would be looking for, and what needs the site would have to fulfil. Then, I put together some user stories of potential site visitors, and drew up some user personas based on feedback from other bootcampers, devs and mentors, so that I could narrow down even further what needs the site should address. I also created two potential user flows, so that I could decide how I wanted the architecture of the site to look, being mindful of useability and ease of access in both options.
 
-Low-fidelity wireframes have been completed in **[this Miro board](https://miro.com/app/board/uXjVO0jzscM=/?share_link_id=378879754284).**
+### **Ideating & Low-Fidelity Wireframes**
 
-- Remember Paavan's emphasis: UX should be about storytelling, attention, and wonder.
-- **Inspiration board.** Collate the information and look for design elements that will match the energy and vibe I want to reflect. Looking specifically for information on shapes and layout, but also consider that I will be a user of my own product. What do I want to convey? It is a product that will speak for me, what do I want it to say? ✅
-- **Low fidelity wireframes.** Create these in Miro, drawing on research into other portfolios and websites. ✅
-  - (If you went into UX/UI, you could call your website _lowefidelity_, teehee).
+After collating my ideas, I created some low-fidelity wireframes, which can be found in **[this Miro board](https://miro.com/app/board/uXjVO0jzscM=/?share_link_id=378879754284).**
 
-### **Prototyping & High-fidelity Wireframes**
+While drawing together these wireframes, I was keeping in mind some advice that Paavan Buddhdev gave to our cohort at the School of Code, which is that UX should be about storytelling, attention, and wonder. I wanted this site to be minimalistic, easy to use and read, quick to load, and professional. I also wanted it to feel personal, though, and that I was happy with and inspired by the representation of myself that the site would be giving.
 
-High-fidelity wireframe can be viewed **[on Figma here](https://www.figma.com/proto/VjKqj0v019CX4fdlSRjErL/W3-Hifi-Wireframe?node-id=9%3A63&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A63).**
+Keeping these things in mind, I drew together a few low-fidelity wireframes, and collected colour and font swatches together within these wireframes. I spent some time comparing my colour combinations and putting them through various opacity and contrast checkers, to make sure that visually, my site would be accessible and readable.
 
-- As close to end product as possible. ✅
-- Use **Figma** in order to accomplish this. ✅
-- Refer to sites like **Typewolf** in order to get some ideas of different typography and colour elements you like. ✅
-- Collate palettes and typography ideas before beginning. ✅
+I gave myself a few different options in my first low-fidelity wireframes, which I got feedback on from other developers and non-developers. I moved forward with this feedback and collated the preferred elements from both concepts into the final low-fi wireframe, while eliminating more problematic or less liked elements.
 
-### **Coding, Testing & Re-ideating**
+### **Prototyping & High-Fidelity Wireframes**
 
-- Refactoring ideas: wanted to add raindrops and natural shapes to the CSS shapes!
-- Notes from coding: responsive sizing on the colour blobs on my hi-fi wireframes, if they're made out of CSS, was a lot of work and effort to figure out. So, I put that element of the design on the backburner, and experimented with centralising another design idea I'd really enjoyed instead, which was the rotating-on-click self-descriptors. Beginning of code will be saved in a folder in this repo.
+Next, I created a high-fidelity wireframe for my final concept, which can be viewed **[on Figma here](https://www.figma.com/proto/VjKqj0v019CX4fdlSRjErL/W1.0-Hifi-Wireframe?node-id=9%3A63&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A63).**
+
+### **Coding, Testing & Re-Ideating**
+
+Then, I began coding!
+
+The base elements came together quickly and quite well, but one aspect of the site that I wasn't happy with after I began coding was the circular 'blob' CSS elements. Specifically, the awkwardness of their sizes and positioning when they reshaped bothered me, so I decided to reimagine that element into something a little tidier.
+
+My goal was to create an element on the index page that still felt personal and added some of the warmth of the rounded, yellow circles, while also keeping the site neat, and avoiding the resizing that I didn't like. To accomplish this, I added a large, changing heading on the index page which greets the user with a rotating, clickable array of descriptors. Eg. _My name is Madison and I am a software developer / bad cook / Sheffielder / lake swimmer_ and so on. To keep the yellow colour that I'd been fond of, I added some code so that the yellow would feature as an on-hover text highlight on this clickable array.
+
+Being able to code a mock-up of my final idea was also really useful in giving me ideas of different UI or architectural pieces I'd want to implement in a future version of this site. Moving forward, I'm excited to take what I've learned in this project and apply it to the 2.0 version of my personal site.
