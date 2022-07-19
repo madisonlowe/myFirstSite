@@ -4,7 +4,7 @@ This is a repo tracking the development process of researching, planning, buildi
 
 I began planning and building this website during the first few weeks of my bootcamp with the **[School of Code](https://www.schoolofcode.co.uk)**, and my focus during building was getting in some practice with engaging UX/UI fundamentals and working concepts, and using vanilla HTML, CSS and JavaScript to build a functional, clean application.
 
-As of the moment of typing, I just started getting my hands on React. The capabilities of React are really exciting, and I've been learning and growing since I first conceptualised this project, so my website 2.0 is going to be researched, designed and put together in a different repo, using some of the new technologies that I'm currently learning.
+As of the moment of typing, I just started getting my hands on React. The capabilities of React are really exciting, and I've been learning and growing since I first conceptualised this project, so my website 2.0 is going to be put together in a different repo, using some of the new technologies that I'm currently learning.
 
 I'll update this repo once I have some links and work to show regarding that! For now, though, let me know if you have any questions, feedback or ideas to share that you think could push this project further, and thanks for stopping by!
 
